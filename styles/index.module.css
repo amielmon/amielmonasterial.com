@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'ITC Kabel Std Demi';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/ITCKabelStdDemi.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'ITC Kabel Std Book';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/ITCKabelStdBook.woff') format('woff');
+  }
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f3eacb;
+}
+
+.title {
+  color: #3f5c94;
+  font-family: 'ITC Kabel Std Demi';
+  font-size: 40px;
+}
+
+.body {
+  color: #ed078a;
+  font-family: 'ITC Kabel Std Book';
+  font-size: 24px;
+}
+
+.body a {
+  color: #c92764ff;
+  text-decoration: underline;
+}
