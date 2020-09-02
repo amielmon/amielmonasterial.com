@@ -14,7 +14,7 @@
 
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0 15vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,7 @@
 }
 
 .title {
-  color: #3f5c94;
+  color: #100e9dff;;
   font-family: 'ITC Kabel Std Demi';
   font-size: 40px;
 }
@@ -37,4 +37,37 @@
 .body a {
   color: #c92764ff;
   text-decoration: underline;
+}
+
+.body a:hover {
+  background: #98c6c3;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links a:first-child {
+  position: relative;
+  bottom: 2px;
+  margin-right: 20px;
+}
+
+.icon {
+  fill: #100e9dff;
+}
+
+.icon:hover {
+  fill: #5a30c4ff;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 2vh 4vw;
+  }
+  .links {
+    justify-content: flex-start;
+  }
 }
