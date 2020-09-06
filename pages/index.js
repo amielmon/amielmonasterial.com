@@ -15,8 +15,7 @@ export default function Home() {
           Hi, my name's Amiel.
         </span>
         <p className={styles.body}>
-          I'm a fourth year computer science major at Northeastern University. I love building applications that put user experience first and heavily believe in using software for  
-          <a href="https://blmtimeline.com/" target="_blank"> social good</a>.
+          I'm a fourth year computer science major at Northeastern University. I love building applications that put user experience first and heavily believe in using software for <a href="https://blmtimeline.com/" target="_blank">social good</a>.
          </p>
         <p className={styles.body}>
           In my free time, I work with <a href="https://www.sandboxnu.com/" target="_blank"> Sandbox Northeastern</a> to develop impactful <a href="https://searchneu.com/" target="_blank"> community-centric projects</a> . 
